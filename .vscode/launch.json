@@ -9,6 +9,13 @@
       "program": "${workspaceFolder}/cmd/virtual-kubelet/main.go"
     },
     {
+      "name": "Launch Rebuild",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/cmd/virtual-kubelet-rebuild/main.go"
+    },
+    {
       "name": "Attach to Container",
       "type": "go",
       "request": "attach",
